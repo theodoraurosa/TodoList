@@ -1,0 +1,132 @@
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content:center;
+    gap:15px;
+ 
+  }
+  
+  .menu {
+    width: 340px;
+    height: 700px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    color: 000000;
+    flex-direction: column;
+    border-radius: 50px;
+    margin-left: 20px;
+   
+  }
+  
+  .menu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: EBEBEB;
+  }
+  
+  .tasks, .lists {
+    margin-bottom: 20px;
+    color: 000000;
+    
+  }
+  
+  .tasks h3, .lists h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tasks ul, .lists ul {
+    list-style: none;
+    
+  }
+  
+  .tasks ul li, .lists ul li {
+    margin-bottom: 10px;
+  }
+  
+  .tasks ul li a, .lists ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lists ul li a.work {
+    color: red;
+  }
+  
+  .lists ul li a.personal {
+    color: green;
+  }
+  
+  .lists ul li a.study {
+    color: blue;
+  }
+  
+  .settings a {
+    color: #524a4a;
+    text-decoration: none;
+    display: block;
+    margin: 10px ;
+  }
+  
+  
+  /* .content {
+    flex: 1;
+    padding: 40px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    width: 800px;
+    height: 700px;
+    margin: 15px;
+  } */
+  
+  .content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+  
+  .content button {
+   
+    background-color: limegreen;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .content button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  
